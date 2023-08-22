@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: activemq
-  namespace:  argocd
+  namespace:  argocd999
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: chime
+    namespace: chime999
     server: https://kubernetes.default.svc
   project: default
   syncPolicy:
@@ -30,7 +30,7 @@ spec:
         fullnameOverride: "activemq"
         ingress:
           hosts:
-            - amq.apps.cluster1.fc67.hpe
+            - amq.apps.rana.l9ri.p1.openshiftapps.com
           tls: [] # for openshift
           annotations: 
             route.openshift.io/termination: edge
