@@ -3,12 +3,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: chime-optimizer
-  namespace: argocd99
+  namespace: argocd999
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: chime99
+    namespace: chime999
     server: https://kubernetes.default.svc
   project: default
   syncPolicy:
@@ -775,7 +775,7 @@ spec:
             logging.level.com.cellwize=DEBUG
             logging.level.com.cellwize.registration=DEBUG
             logging.level.org.springframework=ERROR
-            kubernetes.jobs.namespace=chime
+            kubernetes.jobs.namespace=chime999
             kubernetes.jobs.activeDeadlineSeconds=43200
             #activemq.broker.url=tcp://activemq:61616
 
