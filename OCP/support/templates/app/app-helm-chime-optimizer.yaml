@@ -75,7 +75,7 @@ spec:
 
           createMysqlDbSecret: true
           mysqlSecretName: "cw-mysql"
-          mysqlHost: "mysql.mysql"
+          mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
           mysqlUserName: "admin"
           mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
           mysqlDbName: "son"
