@@ -45,7 +45,7 @@ spec:
 
           #for nfs mount
           shareTarget: nfs
-          networkPathPrefix: /mnt/nfs_shares/data
+          networkPathPrefix: /
           nfsServer: 10.0.207.165
 
           createMongoDbSecret: true
@@ -78,7 +78,7 @@ spec:
           mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
           mysqlUserName: "admin"
           mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
-          mysqlDbName: "saas-cellwize-db"
+          mysqlDbName: "cellwize-mysql"
           mysqlUrlSuffix: "&serverTimezone=Europe/Paris&useSSL=false"
 
           createActivemqDbSecret: true
@@ -174,7 +174,7 @@ spec:
             
             
             #MySQL
-            spring.datasource.url=jdbc:mysql://saas-cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
+            spring.datasource.url=jdbc:mysql://cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
             spring.datasource.username=admin
             spring.datasource.password=kirNE26kXPUqmNpMMhGHMA==
           
