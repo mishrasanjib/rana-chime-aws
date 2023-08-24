@@ -46,7 +46,7 @@ spec:
           #for nfs mount
           shareTarget: nfs
           networkPathPrefix: /mnt/nfs_shares/data
-          nfsServer: 172.16.245.104
+          nfsServer: 10.0.207.165
 
           createMongoDbSecret: true
           mongoSecretName: "cw-mongo"
@@ -75,7 +75,7 @@ spec:
 
           createMysqlDbSecret: true
           mysqlSecretName: "cw-mysql"
-          mysqlHost: "saas-cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com"
+          mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
           mysqlUserName: "admin"
           mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
           mysqlDbName: "saas-cellwize-db"
