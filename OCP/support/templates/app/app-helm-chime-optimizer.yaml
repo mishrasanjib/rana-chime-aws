@@ -75,9 +75,9 @@ spec:
 
           createMysqlDbSecret: true
           mysqlSecretName: "cw-mysql"
-          mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
+          mysqlHost: "mysql.mysql"
           mysqlUserName: "admin"
-          mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
+          mysqlHashPass: "yW4jHzk2MhLR2axQvDloDw=="
           mysqlDbName: "son"
           mysqlUrlSuffix: "&serverTimezone=Europe/Paris&useSSL=false"
 
@@ -174,9 +174,9 @@ spec:
             
             
             #MySQL
-            spring.datasource.url=jdbc:mysql://cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
-            spring.datasource.username=admin
-            spring.datasource.password=kirNE26kXPUqmNpMMhGHMA==
+            spring.datasource.url=jdbc:mysql://cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
+            spring.datasource.username=triangulum12
+            spring.datasource.password=q55gF5bqwkNZsKU3A87pJw==
           
         task-trigger-service:
           enabled: true
