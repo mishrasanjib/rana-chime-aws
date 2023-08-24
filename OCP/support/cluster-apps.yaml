@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: chime99
-  namespace: argocd99
+  name: chime
+  namespace: argocd999
 spec:
   destination:
-    namespace: argocd99
+    namespace: argocd999
     server: https://kubernetes.default.svc
   project: default
   source:
     path: OCP/support
-    repoURL: https://github.com/nunodsfernandes/ctg-rana-argocd-apps
+    repoURL: https://github.com/mishrasanjib/rana-chime-aws
     targetRevision: HEAD
     helm:
       values: |
