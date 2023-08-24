@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: chime999
+  name: chime
   namespace: argocd999
 spec:
   destination:
