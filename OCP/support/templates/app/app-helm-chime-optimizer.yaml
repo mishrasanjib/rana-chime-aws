@@ -6,8 +6,7 @@ metadata:
   namespace: argocd999
   finalizers:
     - resources-finalizer.argocd.argoproj.io
-  annotations:
-    argocd.argoproj.io/sync-options: Prune=false
+  
 spec:
   destination:
     namespace: chime999
