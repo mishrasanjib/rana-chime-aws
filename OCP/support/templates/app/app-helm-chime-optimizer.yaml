@@ -1058,10 +1058,10 @@ spec:
           resources:
             requests:
               cpu: 2
-              memory: 8Gi
+              memory: 20Gi
             limits:
-              cpu: 4
-              memory: 10Gi
+              cpu: 8
+              memory: 30Gi
 
           mountSonRawData: true
           extraVolumes:
