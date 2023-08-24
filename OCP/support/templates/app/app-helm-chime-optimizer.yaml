@@ -5,8 +5,7 @@ metadata:
   name: chime-optimizer
   namespace: argocd999
   finalizers:
-    - resources-finalizer.argocd.argoproj.io
-  
+    - resources-finalizer.argocd.argoproj.io 
 spec:
   destination:
     namespace: chime999
