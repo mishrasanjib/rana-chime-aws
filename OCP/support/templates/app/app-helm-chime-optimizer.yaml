@@ -664,7 +664,7 @@ spec:
 
             pgw.workorder.observer.interval.steps.milliseconds=30000,60000,120000,180000
             pgw.workorder.observer.interval.steps.repetition=4
-            pgw.workorder.observer.queue.interval.delay.threshold=1000
+            pgw.workorder.observer.queue.interval.delay.threshold=10000
             pgw.workorder.observer.queue.concurrency=1-5
             pgw.workorder.observer.queue.prefetch.size=10
             pgw.workorder.queue.name=pgw.activeWorkOrders
