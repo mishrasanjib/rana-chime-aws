@@ -68,8 +68,8 @@ spec:
           verticaMoBackupHost: "10.0.232.143:5433"
           verticaUserName: "dbadmin"
           verticaHashPassword: "aAgBzKix72jR2axQvDloDw=="
-          verticaSchema: "sonpm"
-          verticaMoSchema: "sonpm"
+          verticaSchema: "counters"
+          verticaMoSchema: "counters"
           verticaPassword: "counters123" 
 
 
