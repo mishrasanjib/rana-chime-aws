@@ -3,12 +3,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: mysql
-  namespace:  argocd
+  namespace:  argocd999
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: mysql
+    namespace: mysql999
     server: https://kubernetes.default.svc
   project: default
   syncPolicy:
