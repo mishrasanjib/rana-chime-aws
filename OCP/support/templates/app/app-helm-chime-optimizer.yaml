@@ -78,7 +78,7 @@ spec:
           mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
           mysqlUserName: "admin"
           mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
-          mysqlDbName: "cellwize-mysql"
+          mysqlDbName: "son"
           mysqlUrlSuffix: "&serverTimezone=Europe/Paris&useSSL=false"
 
           createActivemqDbSecret: true
