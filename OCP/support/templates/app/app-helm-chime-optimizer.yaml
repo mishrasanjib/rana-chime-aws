@@ -75,10 +75,10 @@ spec:
 
           createMysqlDbSecret: true
           mysqlSecretName: "cw-mysql"
-          mysqlHost: "cellwize-mysql.czyginzkctfg.us-east-2.rds.amazonaws.com"
+          mysqlHost: "saas-cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com"
           mysqlUserName: "admin"
           mysqlHashPass: "kirNE26kXPUqmNpMMhGHMA=="
-          mysqlDbName: "son"
+          mysqlDbName: "saas-cellwize-db"
           mysqlUrlSuffix: "&serverTimezone=Europe/Paris&useSSL=false"
 
           createActivemqDbSecret: true
@@ -174,7 +174,7 @@ spec:
             
             
             #MySQL
-            spring.datasource.url=jdbc:mysql://cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
+            spring.datasource.url=jdbc:mysql://saas-cellwize-db.czyginzkctfg.us-east-2.rds.amazonaws.com:3306/son?rewriteBatchedStatements=true
             spring.datasource.username=admin
             spring.datasource.password=kirNE26kXPUqmNpMMhGHMA==
           
